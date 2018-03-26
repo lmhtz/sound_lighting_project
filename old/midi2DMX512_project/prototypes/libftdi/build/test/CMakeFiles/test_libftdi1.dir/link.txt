@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g -DNDEBUG   CMakeFiles/test_libftdi1.dir/basic.cpp.o CMakeFiles/test_libftdi1.dir/baudrate.cpp.o  -o test_libftdi1 -Wl,-rpath,/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/build/src -rdynamic ../src/libftdi1.so.2.4.0 -lboost_unit_test_framework -lusb-1.0 

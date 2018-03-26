@@ -1,0 +1,22 @@
+
+
+
+
+
+
+end_time = time.time() + duration
+speed = 1.0 / duration
+t_remained = end_time - time.time()  # осталось
+self.hsv.value = t_remained * speed
+
+
+end_time = time.time() + duration
+speed = 1.0 / duration
+t_remained = end_time - time.time()  # осталось
+t_elapsed = end_time - t_remained # прошло
+self.hsv.value = 1.0 - t_elapsed * speed
+
+
+t_remained = end_time - time.time()  # осталось
+delta = self.hsv.value - t_remained * speed
+self.hsv.value -= delta

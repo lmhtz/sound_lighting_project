@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g -DNDEBUG   CMakeFiles/find_all_pp.dir/find_all_pp.cpp.o  -o find_all_pp -Wl,-rpath,/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/build/ftdipp:/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/build/src -rdynamic ../ftdipp/libftdipp1.so.2.4.0 ../src/libftdi1.so.2.4.0 -lusb-1.0 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/ftdi.h
+stdint.h
+-
+sys/time.h
+-
+windows.h
+-
+
+/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/test/basic.cpp
+boost/test/unit_test.hpp
+-
+ftdi.h
+-
+
+/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/test/baudrate.cpp
+ftdi.h
+-
+boost/test/unit_test.hpp
+-
+boost/foreach.hpp
+-
+vector
+-
+map
+-
+math.h
+-
+

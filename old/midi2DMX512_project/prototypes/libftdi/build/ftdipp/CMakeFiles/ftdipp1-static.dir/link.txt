@@ -1,0 +1,2 @@
+/usr/bin/ar qc libftdipp1.a  CMakeFiles/ftdipp1-static.dir/ftdi.cpp.o
+/usr/bin/ranlib libftdipp1.a

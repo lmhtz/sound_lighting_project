@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ftdipp/ftdi.hpp
+list
+-
+string
+-
+boost/shared_ptr.hpp
+-
+ftdi.h
+-
+
+../src/ftdi.h
+stdint.h
+-
+sys/time.h
+-
+windows.h
+-
+
+/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/examples/find_all_pp.cpp
+ftdi.hpp
+/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/examples/ftdi.hpp
+iostream
+-
+iomanip
+-
+cstdlib
+-
+cstring
+-
+

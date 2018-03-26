@@ -1,0 +1,1 @@
+/usr/bin/cc  -O2 -g -DNDEBUG   CMakeFiles/simple.dir/simple.c.o  -o simple -Wl,-rpath,/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/build/src -rdynamic ../src/libftdi1.so.2.4.0 -lusb-1.0 

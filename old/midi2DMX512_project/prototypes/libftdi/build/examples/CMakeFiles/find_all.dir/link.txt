@@ -1,0 +1,1 @@
+/usr/bin/cc  -O2 -g -DNDEBUG   CMakeFiles/find_all.dir/find_all.c.o  -o find_all -Wl,-rpath,/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/build/src -rdynamic ../src/libftdi1.so.2.4.0 -lusb-1.0 

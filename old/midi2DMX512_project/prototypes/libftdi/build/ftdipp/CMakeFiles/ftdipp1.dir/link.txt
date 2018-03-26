@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libftdipp1.so.2 -o libftdipp1.so.2.4.0 CMakeFiles/ftdipp1.dir/ftdi.cpp.o -Wl,-rpath,/home/jj/Dropbox/sound_programming/midi2DMX512_project/prototypes/libftdi/build/src: ../src/libftdi1.so.2.4.0 -lusb-1.0 
